@@ -3,13 +3,17 @@ Repositório contendo a prática de simulação de ambiente hierárquico com con
 
 Relatório Técnico: Configuração de VLANs de Acesso em Ambiente Hierárquico1. Visão Geral do ProjetoEste projeto contempla a implementação e segregação de redes de camada 2 por meio da configuração de VLANs do tipo Acesso em switches de infraestrutura simulada no Cisco Packet Tracer.
 O objetivo principal é garantir a correta segmentação e o isolamento de tráfego entre a rede de alunos e a rede de visitantes nos switches da camada de acesso.2.
+
 Parâmetros e Mapeamento TécnicoTabela de Definição de VLANsID da VLANNome da VLANFinalidade / Público10AlunosTráfego administrativo e pedagógico associado aos computadores (PCs).20VisitantesTráfego de convidados/visitantes associado aos notebooks (Laptops).
 Mapeamento das Interfaces de AcessoEquipamentoPadrão de InterfacesModo de OperaçãoVLAN AssociadaDispositivo Final ConectadoSwitches de AcessoPortas Ímpares (1/0/1, 1/0/3, 1/0/5...)AccessVLAN 10Computadores (PCs)Switches de AcessoPortas Pares (1/0/2, 1/0/4, 1/0/6...)AccessVLAN 20Notebooks (Laptops)3. Diagrama da TopologiaAbaixo está representada a topologia de redes hierárquica configurada no Cisco Packet Tracer:
 
 
 Step 2: Criar e nomear as VLANs
+
 vlan 10
+
  name Alunos
+ 
 exit
 
 vlan 20
