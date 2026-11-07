@@ -1,4 +1,4 @@
-# Relatorio-Técnico-Configuração de VLANs de Acesso em Ambiente Hierarquico
+Relatorio tecnico
 Repositório contendo a prática de simulação de ambiente hierárquico com configuração de VLANs de acesso (Alunos e Visitantes) no Cisco Packet Tracer.
 
 Relatório Técnico: Configuração de VLANs de Acesso em Ambiente Hierárquico1. Visão Geral do ProjetoEste projeto contempla a implementação e segregação de redes de camada 2 por meio da configuração de VLANs do tipo Acesso em switches de infraestrutura simulada no Cisco Packet Tracer.
