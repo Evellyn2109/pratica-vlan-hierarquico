@@ -18,7 +18,7 @@ Switch de Distribuição / Core (SW-DIS0)
 
 Status das VLANs e interfaces GigabitEthernet no switch da camada de distribuição.
 
-🗺️ 2. Topologia do Ambiente Hierárquico
+ 2. Topologia do Ambiente Hierárquico
 
 A topologia segue o modelo hierárquico Cisco de 3 camadas (Core, Distribuição e Acesso), separando o tráfego dos usuários finais nas interfaces dos switches de acesso:
 
@@ -46,7 +46,7 @@ A topologia segue o modelo hierárquico Cisco de 3 camadas (Core, Distribuição
      (Desktops) (Notebooks)      (Desktops) (Notebooks)
 
 
-📋 3. Mapeamento e Documentação Técnica
+ 3. Mapeamento e Documentação Técnica
 
 ID da VLAN
 
@@ -145,7 +145,7 @@ end
 copy running-config startup-config
 
 
-🔍 5. Validação da Configuração
+5. Validação da Configuração
 
 Para verificar se o procedimento foi aplicado com sucesso, utilize o comando:
 
